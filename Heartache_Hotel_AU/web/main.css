@@ -1,0 +1,210 @@
+/* 
+    Created on : 21-Oct-2016, 11:45:11
+    Author     : mre16utu
+*/
+
+body {margin:0; padding:0;}
+
+header {border: 0px solid white;}
+nav {border: 2px ;}
+footer {border: 2px ;}
+div#main {border: 2px ;}
+
+
+
+#main {
+
+}
+
+header{width:100%;
+       height:10vh;
+       background-color: purple;
+	 text-align: center;
+}
+
+#top div.center {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+
+#top div.right {
+    float: right;
+    text-align: right;
+}
+
+footer{	
+   width:100%;
+   height:6vh;
+   bottom:0;
+   text-align:center;
+}
+
+h1 {font-family:Helvetica,Arial,sans-serif; 
+    font-size:xx-large; 
+    color:white;
+    font-style: bold;
+    line-height: 10vh;
+    height: 10vh;
+}
+
+
+h2 {font-family:Helvetica,Arial,sans-serif; 
+    font-size:large; 
+    color:#000000;
+    font-style: bold;}
+
+h3 {font-family:Helvetica,Arial,sans-serif; 
+    font-size:medium; 
+    color:#000000;
+    font-style: bold;}
+
+p {font-family:Helvetica,Arial; 
+   font-size:small;}
+
+
+.menuitem li{display: inline;
+             font-size:small; 
+		 padding:1em;
+}
+
+.navlist{
+   text-align: center;
+}
+
+a {
+   color: #000000;
+}
+a:hover {
+   color: red;
+}
+
+fieldset {
+   display: inline-block;
+   text-align: left;
+
+}
+form
+{
+   text-align: center;
+}
+#submit {
+   float: right;
+   background-color: #D1C51D;
+}
+#room1{
+   float: right;
+}
+#room2{
+   float: right;
+}
+#room3{
+   float: right;
+}
+#room4{
+   float: right;
+}
+#available{
+   color: red;
+}
+
+#map-canvas {
+   height:300px; 
+   width:500px;
+}
+
+/* css for image gallery on index.html */
+body {
+   margin-top: 20px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   background: #CCCCCC; /* For browsers that do not support gradients */
+   /*background: linear-gradient(to left, rgba(189,144,212,0.6), rgba(189,144,212,1)); /*Standard*/
+   /*background: linear-gradient(to left, rgba(144,212,181,0), rgba(144,212,181,1)); /*Standard*/
+} 
+
+
+.gallery {
+   align-content: center;
+   text-align: center;
+}
+
+
+.thumbnails img {
+   height: 6vh;
+   border: 4px solid #555555;
+   padding: 1px;
+   margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+   border: 4px solid #00ccff;
+   cursor:pointer;
+}
+
+.preview img {
+   border: 4px solid #444;
+   padding: 1px;
+   max-width: 100%;
+   max-height: 300px;
+}
+
+/* css for text below gallery */
+.textContent{
+   width: 60%;
+   align-content: center;
+   text-align: left;
+   margin-left: 20%;
+}
+
+.roomImage {
+   text-align: center;
+   float: right;
+   border: 4px solid #BDBDBD;
+   background: #E0E0E0;
+   padding: 1px;
+   width: 50%;
+
+}
+.roomImage img{
+   width: 100%;
+}
+figcaption{
+   text-align:center;
+}
+
+/* css for payment form - Tim's additions to main.css'*/
+#pTypes{
+   float: right;
+}
+#cardNo{
+   float: right;
+}
+
+#exDate{
+   float: right;
+}
+
+#fName{
+   float: right;
+}
+
+#lName{
+   float: right;
+}
+
+#address1{
+   float:right;
+}
+
+#city{
+   float:right;
+}
+
+#pCode{
+   float:right;
+}
+
+#email{
+   float:right;
+}
+
